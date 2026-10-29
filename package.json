@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build && sudo node ./scripts/minify.js"
+    "build": "GENERATE_SOURCEMAP=false react-scripts build && sudo node ./scripts/minify.js",
+    "dev": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
